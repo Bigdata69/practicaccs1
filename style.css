@@ -1,0 +1,104 @@
+
+
+  
+    .hola::before {content:icon;
+padding-left: 10px;
+    margin: 0;
+    padding: 0;}
+   
+  body {
+    font-family: Arial, sans-serif;
+    font-size: 2em; }
+  
+  header {
+    background-image:url(https://cdn.hobbyconsolas.com/sites/navi.axelspringer.es/public/media/image/2014/05/333750-concurso-x-men-dias-futuro-pasado.jpg?tf=1200x);
+    background-size: cover ;
+    height:700px ;
+    display: flex;
+    align-items:start;
+    justify-content: center;position:fixie;
+  padding: 20px;}
+
+  header h1 {
+    color: white;
+    text-align: center  ;
+    font-size: 2em;}
+
+  
+  nav {
+    background-color:grey;height: 80px;
+  }
+  nav li{display:inline;
+    list-style: none;text-decoration-line: none;color: orangered;
+    justify-content: space-between;padding:20px;align-content: center;}
+  
+  li { text-align: center;
+    margin :20px ;padding:10px;}
+
+  button {background-color:aqua;
+  margin: 30px; border-bottom: 6px;border-color: black;
+border-radius: 18px;border-style: double;border: width 10px;}
+section {display: flow-root; position:relative; background-color: orangered;margin: 10px;
+;padding-inline-end: 30px;text-align: center;width: 100%;}
+
+ button li:hover {text-decoration-color: rgb(80, 7, 158);
+  text-align: center;color: red;}
+  nav a:hover {text-decoration-line: none;
+    padding: 20px;
+    color: white;
+  }
+  
+  /*HOVER Y FOCUS AL NAV */
+  
+  
+section {justify-content: center;align-content: center;}
+  section h2
+   { margin-bottom: 10px;
+    height: 150px; justify-content:center;  }
+  section h2:hover {text-align:center; color:white;
+    justify-items: center;
+    margin-bottom: 20px 10px;
+  }
+  
+  section ul {
+    display:flow-root;
+  
+  }
+  
+  section li {
+    margin: 10px;
+    list-style-type: none;justify-content: space-between;
+  }
+  
+  /* SUSITUIR EL PUNTO DE LA LISTA POR LA X */
+  
+  section a {
+    color: black;
+  text-decoration-line: none;
+    font-weight: bold;
+    font-size: 2.2em;}
+
+  @media (max-width: 900px)
+  {(min-width: none)}
+  
+  /* AÑADIR CORCHETES A LOS ENLACES */
+  
+  /* AÑADIR HOVER A LOS ENLACES */
+  
+  
+  /* AÑADIR FOCUS A LOS ENLACES */
+  
+    footer {display: block;
+    justify-content:space-between;
+    background-color: grey;
+    border-image: round;box-sizing: 0;
+    color: white;
+    padding: 20px;height:auto
+    }
+.pepa
+{color: red; align-items: center;}
+  footer p {display: block;
+    margin: 0;align-items: center;
+    font-size: 0.8em;}
+    footer a {display:inline;}
+    footer a >img { width: 50px; }
